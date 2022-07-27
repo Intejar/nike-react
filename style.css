@@ -1,0 +1,25 @@
+.header-bg{
+    background-color: #FFF9F4;
+}
+.text-clr-1{
+    color: #FA804C
+    ;
+    font-size: larger;
+    font-weight: 700;
+    
+
+    
+}
+
+.text-clr-2{
+    color: #363958;
+    font-size: larger;
+    font-weight: 700;
+}
+.button{
+    background-image: linear-gradient(#3D4FF3,#3543BC);
+    color: white;
+    padding: 18px 30px;
+    margin-top: 20px;
+
+}

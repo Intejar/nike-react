@@ -5,9 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awsome link  -->
+    <script src="https://kit.fontawesome.com/e70ca64d1d.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header class="header-bg pb-5">
+        <!-- nav start -->
+        <section class="conytainer">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                  <a class="navbar-brand" href="#"><img class="img-fluid" src="icons/Logo.png" alt="" width="250" height="120"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        
+                        <a class="nav-link" href="#">Product</a>
+                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link">Contact us</a></div>
+                    
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </section>
+        <!-- nav end  -->
+
+        <!-- banner start  -->
+        <section class="container">
+            <div>
+                <div class="row gx-5 d-md-flex align-items-center flex-row-reverse m-4 ">
+            
+                        
+                        <div class="col-md-7 col-sm-12 ">
+                            <h1 class="pb-5">
+                                <span class="text-clr-1 fw-bold text-lg-size">NIKE REACT</span> <br>
+                                <span class="text-clr-2 fw-bold">INFINITY RUN 2</span>
+                            </h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, recusandae!</p>
+                            <button type="btn" class="btn button">
+                                <div class="d-flex">
+                                    <div class="me-2">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </div>
+                                    <div class="fw-semibold">
+                                        <span>
+                                            BUY NOW
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </button>
+    
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <img class="img-fluid" src="images/Group 33092.png" alt=" ">
+    
+                        </div>
+                
+                </div>
+            </div>
+        </section>
+
+
+        <!-- banner end -->
+        
+    </header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
